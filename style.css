@@ -8,10 +8,10 @@ nav li{white-space:nowrap}
 nav a{color:white;text-decoration:none;font-size:20px}
 nav a:hover{color:#b9d9ff}
 
-.page{display:none;min-height:calc(100vh - 180px);padding:80px 7%}
-.page.active{display:block}
+.page{display:none!important;min-height:calc(100vh - 180px);padding:80px 7%}
+.page.active{display:block!important}
 #home{background:#eaf4ff}
-#home.active{display:flex;align-items:center}
+#home.active{display:flex!important;align-items:center}
 
 .home-content{max-width:750px}
 .welcome{font-size:25px;letter-spacing:4px;color:#555;margin-bottom:55px}
@@ -35,6 +35,17 @@ form label{display:block;font-size:18px;margin:15px 0 8px}
 form input,form textarea{width:100%;padding:12px;font-size:17px;border:1px solid #aaa;border-radius:5px}
 form button{margin-top:20px;padding:12px 25px;background:#1265c4;color:white;border:0;border-radius:5px;font-size:17px}
 
+@media(max-width:750px){
+nav{padding:30px 10px 25px}
+nav h2{font-size:28px;margin-bottom:25px}
+nav ul{gap:25px;overflow-x:auto;justify-content:flex-start;padding:5px}
+nav a{font-size:17px}
+.page{padding:60px 7%}
+.home-content h1{font-size:48px}
+.home-content h3{font-size:27px}
+.description{font-size:20px}
+.welcome{font-size:19px;margin-bottom:35px}
+}
 @media(max-width:750px){
 nav{padding:30px 10px 25px}
 nav h2{font-size:28px;margin-bottom:25px}
