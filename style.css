@@ -25,6 +25,9 @@ nav a:hover{color:#b9d9ff}
 .page p{font-size:20px;line-height:1.7;margin-bottom:25px}
 
 .box{background:#eaf4ff;padding:25px;margin-bottom:20px;border-left:5px solid #1265c4}
+.box a{color:#1265c4;font-size:18px}
+.page img{width:100%;max-width:650px;margin-bottom:30px;border-radius:8px}
+video{width:100%;max-width:650px;margin-top:10px}
 
 form{max-width:600px}
 form label{display:block;font-size:18px;margin:15px 0 8px}
