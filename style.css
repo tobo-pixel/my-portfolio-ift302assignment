@@ -45,6 +45,17 @@ nav a{font-size:17px}
 .home-content h3{font-size:27px}
 .description{font-size:20px}
 .welcome{font-size:19px;margin-bottom:35px}
+}
+@media(max-width:750px){
+nav{padding:30px 10px 25px}
+nav h2{font-size:28px;margin-bottom:25px}
+nav ul{gap:25px;overflow-x:auto;justify-content:flex-start;padding:5px}
+nav a{font-size:17px}
+.page{padding:60px 7%}
+.home-content h1{font-size:48px}
+.home-content h3{font-size:27px}
+.description{font-size:20px}
+.welcome{font-size:19px;margin-bottom:35px}
 }@media(max-width:750px){
 nav{padding:30px 10px 25px}
 nav h2{font-size:28px;margin-bottom:25px}
